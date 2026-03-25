@@ -9,3 +9,5 @@ print("First 5 rows:\n", df.head())
 print("\nDataset Info:\n")
 print(df.info())
 print("\nStatistical Summary:\n", df.describe())
+
+print("\nDataset Shape:", df.shape)
